@@ -253,26 +253,28 @@ header .use {
 .section-2 .slides #slide4:checked ~ .controls label[for=slide3]:after {
     content: '';
 	display: inline-block;
-    margin-left: 15px;
     width: 22px;
     height: 22px;
-    transform: rotate(-135deg);
 }
 
 [lang=en] .section-2 .slides #slide1:checked ~ .controls label[for=slide4]:after,
 [lang=en] .section-2 .slides #slide2:checked ~ .controls label[for=slide1]:after,
 [lang=en] .section-2 .slides #slide3:checked ~ .controls label[for=slide2]:after,
 [lang=en] .section-2 .slides #slide4:checked ~ .controls label[for=slide3]:after {
+    margin-left: 15px;
     border-top: 2px solid white;
     border-right: 2px solid white;
+    transform: rotate(-135deg);
 }
 
 [lang=ar] .section-2 .slides #slide1:checked ~ .controls label[for=slide4]:after,
 [lang=ar] .section-2 .slides #slide2:checked ~ .controls label[for=slide1]:after,
 [lang=ar] .section-2 .slides #slide3:checked ~ .controls label[for=slide2]:after,
 [lang=ar] .section-2 .slides #slide4:checked ~ .controls label[for=slide3]:after {
-    border-bottom: 2px solid white;
+    margin-right: 15px;
+    border-top: 2px solid white;
     border-left: 2px solid white;
+    transform: rotate(135deg);
 }
 
 [lang=en] .section-2 .slides #slide1:checked ~ .controls label[for=slide2],
@@ -293,26 +295,28 @@ header .use {
 .section-2 .slides #slide4:checked ~ .controls label[for=slide1]:after {
     content: '';
 	display: inline-block;
-    margin-left: 15px;
     width: 22px;
     height: 22px;
-    transform: rotate(45deg);
 }
 
 [lang=en] .section-2 .slides #slide1:checked ~ .controls label[for=slide2]:after,
 [lang=en] .section-2 .slides #slide2:checked ~ .controls label[for=slide3]:after,
 [lang=en] .section-2 .slides #slide3:checked ~ .controls label[for=slide4]:after,
 [lang=en] .section-2 .slides #slide4:checked ~ .controls label[for=slide1]:after {
+    margin-left: 15px;
     border-top: 2px solid white;
     border-right: 2px solid white;
+    transform: rotate(45deg);
 }
 
 [lang=ar] .section-2 .slides #slide1:checked ~ .controls label[for=slide2]:after,
 [lang=ar] .section-2 .slides #slide2:checked ~ .controls label[for=slide3]:after,
 [lang=ar] .section-2 .slides #slide3:checked ~ .controls label[for=slide4]:after,
 [lang=ar] .section-2 .slides #slide4:checked ~ .controls label[for=slide1]:after {
-    border-bottom: 2px solid white;
+    margin-right: 15px;
+    border-top: 2px solid white;
     border-left: 2px solid white;
+    transform: rotate(-45deg);
 }
 
 .section-2 .slides ol {

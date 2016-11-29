@@ -183,13 +183,13 @@ header .use {
 
 .section-2 {
     background: white;
-    padding: 15px 0 0 0;
+    padding: 35px 0 0 0;
     color: #000500;
 }
 
 .section-2 .slides {
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .section-2 .slides input {
@@ -363,13 +363,13 @@ header .use {
 }
 
 .section-3 {
-    padding-top: 15px;
+    padding: 35px 0 0 0;
     color: #000500;
 }
 
 .section-3 p {
     background: #f2f2f2;
-    margin-top: 15px;
+    margin-top: 35px;
     padding: 25px 35px;
 }
 

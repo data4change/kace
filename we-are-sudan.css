@@ -195,10 +195,15 @@ header .use {
     display: none;
 }
 
-.section-2 .slides #slide1:checked ~ ol { margin-left: 0; }
-.section-2 .slides #slide2:checked ~ ol { margin-left: -100%; }
-.section-2 .slides #slide3:checked ~ ol { margin-left: -200%; }
-.section-2 .slides #slide4:checked ~ ol { margin-left: -300%; }
+[lang=en] .section-2 .slides #slide1:checked ~ ol { margin-left: 0; }
+[lang=en] .section-2 .slides #slide2:checked ~ ol { margin-left: -100%; }
+[lang=en] .section-2 .slides #slide3:checked ~ ol { margin-left: -200%; }
+[lang=en] .section-2 .slides #slide4:checked ~ ol { margin-left: -300%; }
+
+[lang=ar] .section-2 .slides #slide1:checked ~ ol { margin-right: 0; }
+[lang=ar] .section-2 .slides #slide2:checked ~ ol { margin-right: -100%; }
+[lang=ar] .section-2 .slides #slide3:checked ~ ol { margin-right: -200%; }
+[lang=ar] .section-2 .slides #slide4:checked ~ ol { margin-right: -300%; }
 
 .section-2 .slides .dots {
     background: #f2f2f2;

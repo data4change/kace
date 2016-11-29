@@ -59,15 +59,15 @@ hr {
 .show-nav {
     position: absolute;
     top: 20px;
+    z-index: 2;
     cursor: pointer;
 }
 
 .show-nav:before {
-    content: '';
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 58" style="background:#212121"><path fill="white" d="M0 0v58h58V0H0zm49 47H9v-4h40v4zm0-16H9v-4h40v4zm0-16H9v-4h40v4z"/></svg>');
     display: inline-block;
-    width: 35px;
-    height: 35px;
-    background: white;
+    width: 30px;
+    height: 30px;
 }
 
 .show-nav:checked {

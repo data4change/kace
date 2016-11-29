@@ -24,13 +24,13 @@ h2,
 }
 
 [lang=en] h2,
-.share {
+.location {
     font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
 }
 
 [lang=ar] h2,
-.share {
+.location {
     font-family: 'Changa', sans-serif;
 }
 
@@ -162,7 +162,7 @@ header .use {
 }
 
 .section-1 {
-    background: linear-gradient(rgba(225, 47, 57, 0.6), rgba(225, 47, 57, 0.6)), url('/people.png');
+    background: linear-gradient(rgba(225, 47, 57, 0.6), rgba(225, 47, 57, 0.6)), url('people.png');
     background-size: cover;
     padding: 75px 10px 120px 10px;
 }
@@ -210,7 +210,7 @@ header .use {
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin: 10px 0;
+    margin: 10px;
     border: 2px solid #000500;
     border-radius: 50%;
     cursor: pointer;
@@ -220,7 +220,7 @@ header .use {
 .section-2 .slides #slide2:checked ~ .dots label[for=slide2],
 .section-2 .slides #slide3:checked ~ .dots label[for=slide3],
 .section-2 .slides #slide4:checked ~ .dots label[for=slide4] {
-    background: #000500;
+    background: #ff334e;
 }
 
 .section-2 .slides .controls {
@@ -317,7 +317,7 @@ header .use {
 }
 
 .section-2 .slides ol {
-    width: calc(100% * 5);
+    width: calc(100% * 4);
     margin: 0;
     padding: 0;
     list-style: none;
@@ -326,7 +326,7 @@ header .use {
 
 .section-2 .slides ol li {
     display: block;
-    width: calc(100% / 5);
+    width: calc(100% / 4);
     float: left;
 }
 
@@ -361,6 +361,39 @@ header .use {
     padding: 25px 35px;
 }
 
+.section-3 .location {
+    display: inline-block;
+    width: calc(50% - 41px);
+    background: #212121;
+    padding: 45px 20px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+[lang=en] .section-3 .location {
+    border-right: 1px solid #313131;
+}
+
+[lang=ar] .section-3 .location {
+    border-left: 1px solid #313131;
+}
+
+[lang=en] .section-3 .location:last-of-type {
+    border-right: 1px solid #212121;
+}
+
+[lang=ar] .section-3 .location:last-of-type {
+    border-left: 1px solid #212121;
+}
+
+.section-3 .location .highlight {
+    color: #ff334e;
+}
+
 .section-4 {
     padding: 15px 0;
     color: #000500;
@@ -369,59 +402,9 @@ header .use {
 footer {
     padding: 15px;
     background: #212121;
-}
-
-footer .sharing {
-    padding: 15px;
     text-align: center;
 }
 
-footer .sharing .share + .share {
-    margin-left: 15px;
-}
-
-.share {
-    display: inline-block;
-    border: 2px solid white;
-    padding: 6px 15px 4px 15px;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.share:before {
-    display: inline-block;
-    height: 30px;
-    vertical-align: bottom;
-}
-
-[lang=en] .share:before {
-    margin-right: 12px;
-}
-
-[lang=ar] .share:before {
-    margin-left: 12px;
-}
-
-.share.share-fb {
-    background: #3067a3;
-}
-
-.share.share-fb:hover {
-    background: #244e7c;
-}
-
-.share.share-fb:before {
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="4 4 20 20"><path fill="white" d="M17.9 14h-3v8H12v-8h-2v-2.9h2V8.7C12 6.8 13.1 5 16 5c1.2 0 2 .1 2 .1v3h-1.8c-1 0-1.2.5-1.2 1.3v1.8h3l-.1 2.8z"/></svg>');
-}
-
-.share.share-tw {
-    background: #03b3ee;
-}
-
-.share.share-tw:hover {
-    background: #028dbc;
-}
-
-.share.share-tw:before {
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="4 4 20 20"><path fill="white" d="M21.3 10.5v.5c0 4.7-3.5 10.1-9.9 10.1-2 0-3.8-.6-5.3-1.6.3 0 .6.1.8.1 1.6 0 3.1-.6 4.3-1.5-1.5 0-2.8-1-3.3-2.4.2 0 .4.1.7.1l.9-.1c-1.6-.3-2.8-1.8-2.8-3.5.5.3 1 .4 1.6.4-.9-.6-1.6-1.7-1.6-2.9 0-.6.2-1.3.5-1.8 1.7 2.1 4.3 3.6 7.2 3.7-.1-.3-.1-.5-.1-.8 0-2 1.6-3.5 3.5-3.5 1 0 1.9.4 2.5 1.1.8-.1 1.5-.4 2.2-.8-.3.8-.8 1.5-1.5 1.9.7-.1 1.4-.3 2-.5-.4.4-1 1-1.7 1.5z"/></svg>');
+footer .pretitle {
+    margin-bottom: 5px;
 }

@@ -210,7 +210,7 @@ header .use {
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin: 10px 0;
+    margin: 10px;
     border: 2px solid #000500;
     border-radius: 50%;
     cursor: pointer;
@@ -220,7 +220,7 @@ header .use {
 .section-2 .slides #slide2:checked ~ .dots label[for=slide2],
 .section-2 .slides #slide3:checked ~ .dots label[for=slide3],
 .section-2 .slides #slide4:checked ~ .dots label[for=slide4] {
-    background: #000500;
+    background: #ff334e;
 }
 
 .section-2 .slides .controls {
@@ -317,7 +317,7 @@ header .use {
 }
 
 .section-2 .slides ol {
-    width: calc(100% * 5);
+    width: calc(100% * 4);
     margin: 0;
     padding: 0;
     list-style: none;
@@ -326,7 +326,7 @@ header .use {
 
 .section-2 .slides ol li {
     display: block;
-    width: calc(100% / 5);
+    width: calc(100% / 4);
     float: left;
 }
 

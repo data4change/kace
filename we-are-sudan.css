@@ -338,16 +338,28 @@ header .use {
     display: inline-block;
     width: calc(25% - 2px);
     background: #212121;
-    border-left: 1px solid #212121;
-    border-right: 1px solid #313131;
-    padding: 5px 0;
+    padding: 10px 0;
     color: #f1f2f2;
     text-align: center;
     text-transform: uppercase;
 }
 
-.section-2 .slides ol li a:last-of-type {
+[lang=en] .section-2 .slides ol li img {
+    border-left: 1px solid #212121;
+    border-right: 1px solid #313131;
+}
+
+[lang=ar] .section-2 .slides ol li img {
     border-right: 1px solid #212121;
+    border-left: 1px solid #313131;
+}
+
+[lang=en].section-2 .slides ol li a:last-of-type {
+    border-right: 1px solid #212121;
+}
+
+[lang=ar] .section-2 .slides ol li a:last-of-type {
+    border-left: 1px solid #212121;
 }
 
 .section-3 {
@@ -395,8 +407,22 @@ header .use {
 }
 
 .section-4 {
-    padding: 15px 0;
+    padding: 45px 0 0 0;
     color: #000500;
+}
+
+.section-4 h2 {
+    margin-bottom: 15px;
+}
+
+.section-4 .follow {
+    display: inline-block;
+    width: 33.33%;
+    background: #ff334e;
+    padding: 10px 0;
+    color: #f1f2f2;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 footer {

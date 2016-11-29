@@ -58,13 +58,13 @@ hr {
 
 .show-nav {
     position: absolute;
-    top: 20px;
+    top: 21px;
     z-index: 2;
     cursor: pointer;
 }
 
 .show-nav:before {
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 58" style="background:#212121"><path fill="white" d="M0 0v58h58V0H0zm49 47H9v-4h40v4zm0-16H9v-4h40v4zm0-16H9v-4h40v4z"/></svg>');
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 58" style="background:white"><path fill="#212121" d="M0 0v58h58V0H0zm49 47H9v-4h40v4zm0-16H9v-4h40v4zm0-16H9v-4h40v4z"/></svg>');
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -149,7 +149,7 @@ header {
 
 header .use {
     position: absolute;
-    top: 30px;
+    top: 26px;
 }
 
 [lang=en] header .use {
@@ -337,7 +337,7 @@ header .use {
     display: inline-block;
     width: calc(25% - 2px);
     background: #212121;
-    padding: 10px 0;
+    padding: 18px 0;
     color: #f1f2f2;
     text-align: center;
     text-transform: uppercase;
@@ -418,7 +418,7 @@ header .use {
     display: inline-block;
     width: 33.33%;
     background: #ff334e;
-    padding: 10px 0;
+    padding: 16px 0;
     color: #f1f2f2;
     text-align: center;
     text-transform: uppercase;

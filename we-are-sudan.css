@@ -59,7 +59,6 @@ hr {
 .show-nav {
     position: absolute;
     top: 20px;
-    z-index: 2;
     cursor: pointer;
 }
 
@@ -344,12 +343,12 @@ header .use {
     text-transform: uppercase;
 }
 
-[lang=en] .section-2 .slides ol li img {
+[lang=en] .section-2 .slides ol li a {
     border-left: 1px solid #212121;
     border-right: 1px solid #313131;
 }
 
-[lang=ar] .section-2 .slides ol li img {
+[lang=ar] .section-2 .slides ol li a {
     border-right: 1px solid #212121;
     border-left: 1px solid #313131;
 }

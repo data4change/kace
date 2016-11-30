@@ -17,20 +17,24 @@ body {
 }
 
 h2,
-.share {
+h3 {
     margin: 0;
     text-align: center;
     font-weight: normal;
 }
 
 [lang=en] h2,
-.location {
+.location,
+.date,
+.what {
     font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
 }
 
 [lang=ar] h2,
-.location {
+.location,
+.date,
+.what {
     font-family: 'Changa', sans-serif;
 }
 
@@ -412,6 +416,89 @@ header .use {
 
 .section-3 .location .highlight {
     color: #ff334e;
+}
+
+.section-3 .location.unselected {
+    opacity: 0.4;
+}
+
+.section-3 .next {
+    background: #ff334e;
+    padding: 0 50px 35px 50px;
+}
+
+.section-3 .next hr {
+    width: 100%;
+    margin: 8px 0;
+    border-top: 1px solid #000500;
+}
+
+.section-3 .next h3 {
+    padding-top: 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+[lang=en] .section-3 .next h3 {
+    text-align: left;
+}
+
+
+[lang=ar] .section-3 .next h3 {
+    text-align: right;
+}
+
+.section-3 .next .subtitle {
+    display: block;
+    text-transform: uppercase;
+}
+
+[lang=en].section-3 .next .subtitle {
+    text-align: left;
+}
+
+[lang=ar].section-3 .next .subtitle {
+    text-align: right;
+}
+
+.section-3 .next .subtitle a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section-3 .next .subtitle a:hover {
+    color: #000500;
+}
+
+.section-3 .next .date {
+    font-size: 38px;
+    line-height: 38px;
+}
+
+[lang=en] .section-3 .next .date {
+    float: left;
+    text-align: left;
+}
+
+[lang=ar] .section-3 .next .date {
+    text-align: right;
+}
+
+.section-3 .next .what {
+    color: white;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+[lang=en] .section-3 .next .what {
+    float: right;
+    text-align: right;
+}
+
+[lang=ar] .section-3 .next .what {
+    float: left;
+    text-align: left;
 }
 
 .section-4 {
